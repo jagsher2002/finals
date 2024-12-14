@@ -1,0 +1,45 @@
+body{
+    color:navy;
+    font-family: 'Ga Maamli';
+}
+h1,h2,p,h6{
+    text-align: center;
+}
+
+@keyframes moveCar {
+    0% {
+        transform: translateX(0);
+    }
+    30% {
+        transform: translateX(500px);
+    }
+    60%{
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.moving-car {
+    animation: moveCar 5s infinite;
+}
+body {
+    background-color: #f0f8ff;
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button {
+    background-color: #e6e6fa;
+    color: #000;
+}
+.accordion-button:not(.collapsed) {
+    background-color: blue;
+    color: #fff;
+}
+.accordion-button:hover {
+    background-color: brown;
+    color: #fff;
+}
+.accordion-body {
+    background-color:beige;}
